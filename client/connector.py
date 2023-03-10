@@ -2,7 +2,7 @@ import socket
 import sys
 
 class Connection:
-    def socket_builder(self) -> socket:
+    def socket_builder() -> socket:
 
         sock = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM)
 
